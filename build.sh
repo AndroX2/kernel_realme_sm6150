@@ -36,7 +36,7 @@ err() {
 KERNEL_DIR=$PWD
 
 # The name of the device for which the kernel is built
-MODEL="Redmi K20 Pro"
+MODEL="Realme X2"
 
 # The codename of the device
 DEVICE="X2"
@@ -46,7 +46,7 @@ DEVICE="X2"
 DEFCONFIG=vendor/x2_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="Xiaomi"
+MANUFACTURERINFO="Realme"
 
 # Specify compiler. 
 # 'clang' or 'gcc'
@@ -150,7 +150,7 @@ exports() {
 # Function to replace defconfig versioning
 setversioning() {
     # For staging branchc
-    KERNELNAME="ProjectLighthouseKernel-$DATE"
+    KERNELNAME="Lineage+-X2-$DATE"
     # Export our new localversion and zipnames
     export KERNELNAME
     export ZIPNAME="$KERNELNAME.zip"
