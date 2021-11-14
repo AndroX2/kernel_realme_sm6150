@@ -68,6 +68,7 @@
 #define FingerprintUp       15
 #define SingleTap           16
 
+#define KEY_FOD_DOWN       84
 #define KEY_GESTURE_W               246
 #define KEY_GESTURE_M               247
 #define KEY_GESTURE_S               248
